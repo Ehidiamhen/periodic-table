@@ -1,0 +1,46 @@
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 64px);
+    grid-template-rows: repeat(10, 64px);
+    gap: 5px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.elements {
+    background: white;
+    border: 2px solid #aaa;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.elements:hover {
+    transform: scale(1.25, 1.25);
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+}
+
+.elements .number, .name {
+    position: absolute;
+    font-size: 8px;
+    left: 5px;
+}
+
+.number {
+    top: 5px;
+}
+
+.name {
+    bottom: 5px;
+}
+
+.Hydrogen {
+    /* color: red; */
+}
+
+/* .symbol {
+    font-size: 20px;
+} */
