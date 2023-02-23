@@ -10,16 +10,20 @@
 }
 
 .elements {
-    background: white;
+    /* background: white; */
     border: 2px solid #aaa;
+    color: white;
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
+    border-radius: 1px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 .elements:hover {
     transform: scale(1.25, 1.25);
     z-index: 1;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
     transition: 0.2s ease-in-out;
 }
 
@@ -36,11 +40,3 @@
 .name {
     bottom: 5px;
 }
-
-.Hydrogen {
-    /* color: red; */
-}
-
-/* .symbol {
-    font-size: 20px;
-} */
