@@ -1,8 +1,15 @@
 import React from "react";
-import data from "./PeriodicTableJSON.json"
+import './ElementModal.css'
 
-export default function ElementModal() {
+export default function ElementModal({element, onClose}) {
     return (
-        <div className="element-modal">{data.elements.map(element => <div key={element.name}>{element.summary}</div>)}</div>
+        <div className="modal-wrap">
+                <div className="element-modal">
+                    <span onClick={onClose}>X</span>
+                    <strong>{element.name}</strong>
+                    <p>{element.summary}</p>
+                    <p>{element.number}</p>
+                </div>
+            </div>
     )
 }
