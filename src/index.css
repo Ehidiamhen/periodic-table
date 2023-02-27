@@ -16,11 +16,11 @@
 
 a {
   font-weight: 400;
-  color: #aaa;
-  text-decoration: inherit;
+  color: #4e009b;
+  text-decoration: underline;
 }
 a:hover {
-  color: #6a6a6a !important;
+  color: #050089 !important;
 }
 
 body {
