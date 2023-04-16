@@ -16,7 +16,7 @@
 
 .app > span {
   position: absolute;
-  right: 2.5rem;
+  right: 1rem;
   top: 2rem;
   cursor: pointer;
 }
