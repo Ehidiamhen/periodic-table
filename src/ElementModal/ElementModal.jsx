@@ -18,7 +18,7 @@ export default function ElementModal({ element, onClose }) {
             strokeWidth="1.5"
             stroke="currentColor"
             className="w-6 h-6"
-            width="36px"
+            width="26px"
           >
             <path
               strokeLinecap="round"
@@ -56,7 +56,7 @@ export default function ElementModal({ element, onClose }) {
           <span>Block: </span>
           {element.block}
         </p>
-        <p>
+        <p className="link">
           <span>More Info: </span>
           <a href={element.source} target="_blank">
             {element.source}

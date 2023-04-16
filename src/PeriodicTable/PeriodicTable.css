@@ -41,3 +41,17 @@
 .name {
     bottom: 5px;
 }
+
+@media screen and (max-width: 975px) {
+    .periodic-table {
+        overflow: scroll;
+    }
+
+    /* .link {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      line-clamp: 1;
+      -webkit-box-orient: vertical;
+    } */
+  }
