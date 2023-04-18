@@ -56,7 +56,7 @@ export default function ElementModal({ element, onClose }) {
           <span>Block: </span>
           {element.block}
         </p>
-        <p className="link">
+        <p>
           <span>More Info: </span>
           <a href={element.source} target="_blank">
             {element.source}

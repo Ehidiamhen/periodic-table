@@ -14,15 +14,22 @@
 .element-modal {
   color: beige;
   border-radius: 7px;
-  /* position: relative;
-    top: 20%;
-    left: 30%; */
   width: 40%;
   height: fit-content;
   margin-block: auto;
   padding: 2rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   position: relative;
+  animation: pop-in 0.3s ease-in-out;
+}
+
+@keyframes pop-in {
+  from {
+    transform: scale(0.0);
+  }
+  to {
+    transform: scale(1.0);
+  }
 }
 
 .element-modal .modal-close {

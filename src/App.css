@@ -12,6 +12,7 @@
   text-align: center;
   font-family: 'Inter', sans-serif;
   transition: 0.3s ease-in-out;
+  min-height: 100vh;
 }
 
 .app > span {

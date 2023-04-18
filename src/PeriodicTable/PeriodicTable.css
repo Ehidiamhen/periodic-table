@@ -3,14 +3,9 @@
     grid-template-columns: repeat(18, 64px);
     grid-template-rows: repeat(10, 64px);
     gap: 5px;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
 }
 
 .elements {
-    /* background: white; */
     border: 2px solid #aaa;
     color: white;
     display: flex;
@@ -42,16 +37,8 @@
     bottom: 5px;
 }
 
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 1265px) {
     .periodic-table {
         overflow: scroll;
     }
-
-    /* .link {
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 1;
-      line-clamp: 1;
-      -webkit-box-orient: vertical;
-    } */
   }
